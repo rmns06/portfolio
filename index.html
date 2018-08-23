@@ -1,12 +1,160 @@
-<!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Knewave" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+  crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" async></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <script src="js/main.js" async></script>
 </head>
-<body>
-    <h1>Quel super site</h1>
+
+<body >
+  <div class="mainContainer">
+    <header>
+
+      <div class="bigHeader paralax flex">
+        <span class="buttonMenu" onclick="openNav()">&#9776; </span>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void()" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="#creation_graphique">Création Graphique</a>
+            <a href="#identite_visuelle">Identitée visuelle</a>
+            <a href="#creation_web">Création Web</a>
+            <a href="contact.html">Contact</a>
+
+          </div>
+        </div>
+
+
+        <h1>My name is Romain</h1>
+        <h2>and i'm web designer</h2>
+
+        <section class="biographie ">
+          <h2>&Agrave; propos</h2>
+          <p>Webdesigner domicilié dans le vaucluse, passionné avant tout par les nouvelles technologies et le web, je vous invite
+            à parcourir mon portfolio afin de voir mes dernières réalisations.</p>
+          <p><strong>Créatif </strong>et<strong> réactif</strong>, n'hésitez pas à me contacter pour vos projets à la fois digitaux et print.</p>
+        </section>
+        <div class="butContact"><a class="buttonContact"href="contact.html">Contactez moi</a></div>
+      </div>
+
+    </header>
+
+    <main>
+      <section id="creation_graphique">
+        <h2 class="categorie flex">Créations graphique</h2>
+        <div class="categorie_creation flex paralax">
+          <ul class="categorie_creation_blocImg grid">
+            <li>
+              <img class="wow" src="img/creaGraphique/Rectangle 2.2.jpg" alt="">
+            </li>
+            <li>
+              <img src="img/creaGraphique/cerf.png" alt="">
+            </li>
+            <li>
+              <img src="img/creaGraphique/aigle.png" alt="">
+            </li>
+            <li>
+              <img src="img/creaGraphique/chat.png" alt="">
+            </li>
+            <li>
+              <img src="img/creaGraphique/poulpe1.png" alt="">
+            </li>
+            <li>
+              <img src="img/creaGraphique/bete.png" alt="">
+            </li>
+            <li>
+              <img src="img/creaGraphique/dino.png" alt="">
+            </li>
+            <li>
+              <img src="img/creaGraphique/poulpe2.png" alt="">
+            </li>
+            <li>
+              <img src="img/creaGraphique/poule.png" alt="">
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="identite_visuelle">
+        <h2 class="categorie flex">Identité visuelle</h2>
+        <div class="categorie_visuelle paralax">
+          <ul class="flex">
+            <li>
+              <img src="img/identitéVisuelle/affiche1.jpg" alt="">
+            </li>
+            <li>
+              <img src="img/identitéVisuelle/blendjus1.png" alt="">
+            </li>
+            <li>
+              <img src="img/identitéVisuelle/carte1.png" alt="">
+            </li>
+            <div class="imgX2 flex" >
+              <li class="portrait">
+                <img src="img/identitéVisuelle/blazon1.jpg" alt="">
+              </li>
+              <li class="portrait gauche">
+                <img src="img/identitéVisuelle/blendjus2.jpg" alt="">
+              </li>
+            </div>
+
+            <li>
+              <img src="img/identitéVisuelle/blendjus3.jpg" alt="">
+            </li>
+            <li>
+              <img src="img/identitéVisuelle/paloma.jpg" alt="">
+            </li>
+            <li>
+              <img src="img/identitéVisuelle/lego.jpg" alt="">
+            </li>
+            <div class="imgX2 flex">
+              
+              <li >
+                <img src="img/identitéVisuelle/carte2.jpg" alt="">
+              </li>
+              <li>
+                <img src="img/identitéVisuelle/affiche2.jpg" alt="">
+              </li>
+            </div>
+          </ul>
+        </div>
+      </section>
+
+      <h2 class="categorie flex" id="creation_web">Créations Web</h2>
+      <section class="creaWebContainer">
+        <figure class="flex wow bounceInLeft" data-wow-delay="0.3s">
+          <img src="img/creaWeb/gentlemen.png" alt="">
+          <figcaption>Réalisation d'un site vitrine responsive pour le salon de coiffure et barbier Gentlemen situé a Entraigues sur
+            la Sorgue </figcaption>
+        </figure>
+        <figure class="flex wow bounceInRight" data-wow-delay="0.3s">
+          <figcaption>Refonte du site web d'Horizon Télécom, entreprise leader sur le répondeur numérique.
+            <br>(Projet)
+          </figcaption>
+          <img src="img/creaWeb/horizon.png" alt="">
+        </figure>
+      </section>
+    </main>
+
+
+    <footer class="flex">
+      <p>Copyright 2018 Romain Senechal | Tous droits réservés</p>
+      <a href="https://www.linkedin.com/in/romain-senechal06" target="_blank" class="fab fa-linkedin"></a>
+      <a href="https://twitter.com/RomainS06" target="_blank" class="fab fa-twitter-square"></a>
+      <a href="mailto:romain.senechal06@gmail.com" target="_blank" class="fas fa-envelope"></a>
+
+    </footer>
+  </div>
+  <script>
+    new WOW().init();
+  </script>
 </body>
+
 </html>

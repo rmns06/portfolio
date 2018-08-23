@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Knewave" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+    crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" async></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <script src="js/main.js" async></script>
+</head>
+
+<body>
+  <div class="mainContainer">
+    <header >
+      <div class="flex">
+        <span class="buttonMenu" onclick="openNav()">&#9776; </span>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void()" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="index.html">Accueil</a>
+            <a href="index.html#creation_graphique">Création Graphique</a>
+            <a href="index.html#identite_visuelle">Identitée visuelle</a>
+            <a href="index.html#creation_web">Création Web</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="imgContact flex">
+        <p>Un projet, une question</p>
+        <h2>N'hesitez pas à me contacter</h2>
+      </section>
+      <section class="contact flex">
+          <div>
+            <p class="fas fa-map-marked-alt"></p>
+            <p>Adresse</p>
+            <p>Entraigues sur la sorgue</p>
+            <p>10 km d'Avignon</p>
+          </div>
+         
+          <div>
+              <p class="fas fa-phone"></p>
+              <p>Téléphone</p>
+              <p>06.85.52.73.14.</p>
+          </div>
+          <div>
+            <p class="fas fa-envelope-open"></p>
+            <p>Mail</p>
+            <p>romain.senechal06@gmail.com</p>
+          </div>
+      </section>
+    </main>
+
+
+    <footer class="flex">
+      <p>Copyright 2018 Romain Senechal | Tous droits réservés</p>
+      <a href="https://www.linkedin.com/in/romain-senechal06" target="_blank" class="fab fa-linkedin"></a>
+      <a href="https://twitter.com/RomainS06" target="_blank" class="fab fa-twitter-square"></a>
+      <a href="mailto:romain.senechal06@gmail.com" target="_blank" class="fas fa-envelope"></a>
+
+    </footer>
+  </div>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>
