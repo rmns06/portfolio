@@ -292,16 +292,13 @@ figure {
     font-size: 1.2rem;
 }
 
-<<<<<<< HEAD
-=======
 figure img {
-    width: 60%;
+    width: 80%;
 }
 
 figure figcaption {
-    width: 40%;
+    width: 80%;
 }
->>>>>>> parent of 9aa2c7a... Correction
 
 /* ==========================================================================
   contact
