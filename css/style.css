@@ -283,7 +283,7 @@ li img:hover {
    ========================================================================== */
 
 figure {
-    width: 80%;
+    width: 70%;
     margin: auto;
     align-items: center;
     text-align: center;
@@ -292,6 +292,16 @@ figure {
     font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
+=======
+figure img {
+    width: 60%;
+}
+
+figure figcaption {
+    width: 40%;
+}
+>>>>>>> parent of 9aa2c7a... Correction
 
 /* ==========================================================================
   contact
