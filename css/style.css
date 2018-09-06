@@ -283,7 +283,7 @@ li img:hover {
    ========================================================================== */
 
 figure {
-    width: 70%;
+    width: 80%;
     margin: auto;
     align-items: center;
     text-align: center;
@@ -296,9 +296,7 @@ figure img {
     width: 60%;
 }
 
-figure figcaption {
-    width: 40%;
-}
+
 
 /* ==========================================================================
   contact
